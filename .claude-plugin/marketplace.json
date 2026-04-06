@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "unslop-ui",
+  "metadata": {
+    "description": "Anti-slop design skill for coding agents. Prevents common AI-generated UI anti-patterns."
+  },
+  "owner": {
+    "name": "Yuwen Lu"
+  },
+  "plugins": [
+    {
+      "name": "unslop-ui",
+      "description": "Enforces clean UI/UX design when generating frontend code. Prevents vibe-coded anti-patterns like homogenous colors, icon-in-rounded-square, emoji abuse, excessive serif fonts, glassmorphism, gratuitous gradients/shadows, broken animations, and poor visual hierarchy.",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "design",
+      "tags": ["design", "frontend", "ui", "ux", "anti-slop", "unslop"]
+    }
+  ]
+}
