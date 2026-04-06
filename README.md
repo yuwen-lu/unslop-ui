@@ -2,6 +2,8 @@
 
 A coding agent skill that enforces clean UI/UX design and prevents common AI-generated anti-patterns when writing frontend code.
 
+Based on this post: [Anti-Slop UI Rules for AI Code Generation](https://x.com/yuwen_lu_/status/2041187936738447565)
+
 ## What it prevents
 
 - Homogenous color goo (everything the same hue at different saturations)
@@ -88,4 +90,4 @@ The `examples/` directory contains reference screenshots showing good and bad de
 
 ## License
 
-MIT
+[MIT](LICENSE)
