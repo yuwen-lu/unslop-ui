@@ -1,3 +1,6 @@
+
+</think>
+
 # unslop-ui
 
 A coding agent skill that enforces clean UI/UX design and prevents common AI-generated anti-patterns when writing frontend code.
@@ -53,7 +56,7 @@ cp -r skills/unslop-ui/ your-project/.cursor/skills/unslop-ui/
 ### OpenAI Codex
 
 ```sh
-cp -r skills/unslop-ui/ your-project/.agents/skills/unslop-ui/
+cp -r skills/unslop-ui/ your-project/.openai/skills/unslop-ui/
 ```
 
 ### Gemini CLI
